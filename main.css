@@ -1,0 +1,90 @@
+*{
+	padding:0;
+	margin:0;
+}
+body{
+	background: #83a4d4;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #b6fbff, #83a4d4);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #b6fbff, #83a4d4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+header{
+	background-color:blue;
+	width:100%;
+	height:8vh;
+	display:flex;
+	padding:20px;
+	border:10px;
+}
+a{
+	color:white;
+	text-decoration:none;
+	font-weight:bolder;
+	justify-content:space-between;
+
+}
+img{
+	display:flex;
+	width:200px;
+	display:flex;
+	align-item:center;
+
+}
+button{
+	background-color:yellow;
+	font-weight:bolder;
+	border-radius:15%;
+	justify-content:space-between;
+}
+div{
+	display:flex;
+	justify-content:center;
+	padding:30px;
+	border:20px;
+	font-size:20px;
+
+}
+article{
+	display:flex;
+	justify-content:center;
+	
+}
+.h1{
+	
+	font-weight:bolder;
+	font-size:50px;
+	text-align:center;
+	
+}
+
+.second{
+	text-align:center;
+	font-size:25px;
+	color:#ffffff;
+	line-height:1cm;
+	
+
+}
+.current{
+	display:flex;
+	justify-content:center;
+	padding:20px;
+}
+.read{
+	background-color:blue;
+	height:10vh;
+	font-size:20px;
+	border-radius:15%;
+	display:flex;
+	justify-content:center;
+
+}
+.beta{
+	display:flex;
+	flex-direction:column;
+}
+#download{
+	display:flex;
+	flex-direction:column;
+
+}
