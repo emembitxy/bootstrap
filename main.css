@@ -16,7 +16,7 @@ header{
 	padding:20px;
 	border:10px;
 }
-a{
+header a{
 	color:white;
 	text-decoration:none;
 	font-weight:bolder;
@@ -25,6 +25,8 @@ a{
 }
 img{
 	display:flex;
+	/*justify-content:center;*/
+	object-fit:center;
 	width:200px;
 	display:flex;
 	align-item:center;
@@ -75,16 +77,21 @@ article{
 	height:10vh;
 	font-size:20px;
 	border-radius:15%;
-	display:flex;
-	justify-content:center;
-
 }
 .beta{
 	display:flex;
 	flex-direction:column;
 }
+aside.release{
+	display:flex;
+	justify-content:center;
+	padding:20px;
+
+
+}
 #download{
 	display:flex;
-	flex-direction:column;
+	justify-content:space-between;
+	text-decoration:line-through;
 
 }
